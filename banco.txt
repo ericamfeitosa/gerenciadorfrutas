@@ -1,8 +1,0 @@
-create database pomar;
-use pomar;
-CREATE TABLE `cadastro` (
-  `id` SERIAL PRIMARY KEY,
-  `especie` VARCHAR(30) NOT NULL,
-  `grupo` VARCHAR(20) NOT NULL,
-  `data` VARCHAR(8) NOT NULL 
-);
